@@ -34,7 +34,7 @@ export default function RootLayout({
         <meta charSet="UTF-8" />
         <meta property="og:image:width" content="920" />
         <meta property="og:image:height" content="470" />
-        <meta property="og:image" content={"https://cerkitek-landing.vercel.app/src/app/main.jpg"} />
+        <meta property="og:image" content={"https://cerkitek-landing-k6y407dy1-newcharmingteam.vercel.app/src/app/main.jpg"} />
       </Head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
