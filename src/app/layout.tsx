@@ -4,7 +4,6 @@ import "./globals.css";
 import Header from "@/components/common/Header";
 import Footer from "@/components/common/Footer";
 import Head from "next/head";
-import Images from "@/utils/images";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
