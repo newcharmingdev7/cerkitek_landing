@@ -18,9 +18,10 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "CerkiTek-IT Solutions Simplified",
-  description: `CerkiTek helps businesses turn around failing projects, modernize outdated systems, 
-      and build custom software tailored to their needs. With a focus on fast recovery, 
-      seamless upgrades, and innovative solutions, we ensure your business stays efficient and competitive`,
+  description: `CerkiTek specializes in revitalizing struggling projects, upgrading outdated systems, 
+  and creating custom software designed to meet your unique business needs. 
+  By prioritizing rapid recovery, smooth transitions, and cutting-edge solutions, 
+  we help keep your business efficient and competitive.`,
 };
 
 export default function RootLayout({
@@ -31,7 +32,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <Head>
-        <meta property="og:image" content={Images.main.src} />
+        <meta property="og:image" content={'https://cerkitek-landing.vercel.app/public/images/jpg/main.jpg'} />
       </Head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
