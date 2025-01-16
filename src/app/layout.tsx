@@ -14,11 +14,16 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-export const metadata: Metadata = {
+interface ExtendedMetadata extends Metadata {
+  image?: string;
+}
+
+export const metadata: ExtendedMetadata = {
   title: "CerkiTek-IT Solutions Simplified",
   description: `CerkiTek helps businesses turn around failing projects, modernize outdated systems, 
       and build custom software tailored to their needs. With a focus on fast recovery, 
       seamless upgrades, and innovative solutions, we ensure your business stays efficient and competitive`,
+  image:'/images/jpg/main.jpg',
 };
 
 export default function RootLayout({
