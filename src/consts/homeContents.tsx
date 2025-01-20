@@ -39,7 +39,7 @@ export const choosecontent = {
     {
       title: "Software modernization",
       desription: `Outdated systems holding you back? 
-      Our modernisation services enhance performance, security, 
+      Our modernization services enhance performance, security, 
       and scalability—future-proofing your operations with minimal disruption.`,
     },
     {
@@ -74,11 +74,11 @@ export const introContent = [
     image: Images.second,
     head: (
       <>
-        <span className="text-darkRed">Software Modernisation:</span> <br />
+        <span className="text-darkRed">Software modernization:</span> <br />
         Stay Future-Ready
       </>
     ),
-    up: `Stop letting outdated software slow you down. Our modernisation process ensures:`,
+    up: `Stop letting outdated software slow you down. Our modernization process ensures:`,
     details: [
       `Enhanced performance and security`,
       `Improved user experiences.`,

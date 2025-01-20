@@ -1,1 +1,1 @@
-export const bookmarkUrl = "http://localhost:3000/";
+export const bookmarkUrl = "mailto: jcrowley@cerkitek.com";
