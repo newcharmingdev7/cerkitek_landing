@@ -1,5 +1,6 @@
 import DefaultButton from "@/components/common/DefaultButton";
 import { contactContent } from "@/consts/homeContents";
+import { bookmarkUrl } from "@/consts/urls";
 
 const Contact = () => {
   return (
@@ -13,10 +14,11 @@ const Contact = () => {
         </p>
       </div>
       <div className="flex justify-center">
-        <div className="flex gap-x-4">
-          <DefaultButton title="Contact us now" variant="green" />
-          <DefaultButton title="Learn More" variant="white" />
-        </div>
+        <DefaultButton
+          title="Contact us now"
+          variant="green"
+          url={bookmarkUrl}
+        />
       </div>
     </div>
   );

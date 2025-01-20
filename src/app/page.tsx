@@ -5,11 +5,11 @@ import Contact from "@/components/home/section/Contact";
 
 export default function Home() {
   return (
-    <>
+    <div className="bg-white dark:bg-defaultBlack">
       <Main />
       <Choose />
       <Intro />
       <Contact />
-    </>
+    </div>
   );
 }

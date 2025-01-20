@@ -21,7 +21,7 @@ export const choosecontent = {
   head: {
     title: (
       <>
-        <h1 className="text-4xl font-semibold text-black text-center">
+        <h1 className="text-4xl font-semibold text-black dark:text-white text-center">
           Why Choose CerkiTek?
         </h1>
       </>
@@ -37,7 +37,7 @@ export const choosecontent = {
       and implementing recovery strategies that deliver results.`,
     },
     {
-      title: "Software Modernisation",
+      title: "Software modernization",
       desription: `Outdated systems holding you back? 
       Our modernisation services enhance performance, security, 
       and scalability—future-proofing your operations with minimal disruption.`,
@@ -53,13 +53,12 @@ export const choosecontent = {
 
 export const introContent = [
   {
+    borderColor: "border-[#62C1BF]",
     image: Images.first,
     head: (
       <>
-        <h1 className="text-4xl font-semibold text-black">
-          <span className="text-darkRed">Project Rescue:</span> <br />
-          Get Back on Track
-        </h1>
+        <span className="text-darkRed">Project Rescue:</span> <br />
+        Get Back on Track
       </>
     ),
     up: `No project is beyond saving with CerkiTek. Our seasoned experts dive deep to:`,
@@ -71,13 +70,12 @@ export const introContent = [
     bottom: `The result? Your project not only gets back on track but exceeds expectations.`,
   },
   {
+    borderColor: "border-[#041598]",
     image: Images.second,
     head: (
       <>
-        <h1 className="text-4xl font-semibold text-black">
-          <span className="text-darkRed">Software Modernisation:</span> <br />
-          Stay Future-Ready
-        </h1>
+        <span className="text-darkRed">Software Modernisation:</span> <br />
+        Stay Future-Ready
       </>
     ),
     up: `Stop letting outdated software slow you down. Our modernisation process ensures:`,
@@ -89,14 +87,13 @@ export const introContent = [
     bottom: `With CerkiTek, your systems will be as innovative as your vision.`,
   },
   {
+    borderColor: "border-[#FFD118]",
     image: Images.third,
     head: (
       <>
-        <h1 className="text-4xl font-semibold text-black">
-          <span className="text-darkRed">Custom Software Development:</span>{" "}
-          <br />
-          Built for You
-        </h1>
+        <span className="text-darkRed">Custom Software Development:</span>{" "}
+        <br />
+        Built for You
       </>
     ),
     up: `Tired of one-size-fits-all solutions? We deliver software that's:`,

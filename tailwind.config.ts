@@ -9,10 +9,9 @@ export default {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
         white: "#FFFFFF",
         black: "#303033",
+        defaultBlack: '#000000',
         gray: "#5C5C66",
         lightGray: "#F5F5FA",
         darkRed: "#C16264",
@@ -20,5 +19,6 @@ export default {
       },
     },
   },
+  darkMode: "media",
   plugins: [],
 } satisfies Config;
