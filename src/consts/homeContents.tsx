@@ -11,9 +11,9 @@ export const maincontent = {
     </>
   ),
   discription: `At CerkiTek, we bridge the gap between your business challenges and
-            transformative IT solutions. Whether you're rescuing a struggling
+            transformative IT solutions. Whether you are rescuing a struggling
             project, modernizing outdated systems, or building custom software
-            from scratch, we're here to ensure your business thrives in the
+            from scratch, we are here to ensure your business thrives in the
             digital age.`,
 };
 
@@ -96,7 +96,7 @@ export const introContent = [
         Built for You
       </>
     ),
-    up: `Tired of one-size-fits-all solutions? We deliver software that's:`,
+    up: `Tired of one-size-fits-all solutions? We deliver software that is:`,
     details: [
       `Tailored to your business needs.`,
       `Scalable and secure.`,
@@ -109,5 +109,5 @@ export const introContent = [
 export const contactContent = {
   title: "Partner with CerkiTek Today",
   description: `Your business deserves more than just solutions—it deserves a partner committed to your success. 
-  At CerkiTek, we don't just solve problems; we create opportunities for growth, innovation, and excellence.`,
+  At CerkiTek, we do not just solve problems; we create opportunities for growth, innovation, and excellence.`,
 };
