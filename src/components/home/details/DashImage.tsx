@@ -6,7 +6,7 @@ interface Props {
 }
 
 const DashImage = ({ url, index }: Props) => {
-    const borderColor =
+  const borderColor =
     index === 0
       ? "border-[#62C1BF]"
       : index === 1
@@ -15,15 +15,13 @@ const DashImage = ({ url, index }: Props) => {
   return (
     <div className="relative h-full">
       <div
-        className={`${borderColor} w-full h-full absolute bottom-4 left-4 border-t-2 border-r-2 border-dashed border-opacity-40 rounded-lg z-0`}
-      ></div>
-      <div className="w-full h-full overflow-hidden z-10">
-        <Image
-          src={url}
-          alt="Project Rescue"
-          className="objectfit-cover rounded-xl"
-        />
-      </div>
+        className={`${borderColor} w-full h-full absolute bottom-4 left-4 border-2 border-dashed rounded-lg`}
+      />
+      <Image
+        src={url}
+        alt="Project Rescue"
+        className="objectfit-cover rounded-xl w-full h-full relative"
+      />
     </div>
   );
 };
