@@ -5,7 +5,8 @@ export const maincontent = {
     <>
       <h1 className="text-4xl sm:text-5xl lg:text-6xl font-semibold">
         Unlock Your <br />{" "}
-        <span className="text-darkRed">Digital Potential</span> <br />
+        <span className="text-darkRed dark:text-green">Digital Potential</span>{" "}
+        <br />
         with CerkiTek
       </h1>
     </>
@@ -57,7 +58,7 @@ export const introContent = [
     image: Images.first,
     head: (
       <>
-        <span className="text-darkRed">Project Rescue:</span> <br />
+        <span className="text-darkRed dark:text-green">Project Rescue:</span> <br />
         Get Back on Track
       </>
     ),
@@ -74,7 +75,7 @@ export const introContent = [
     image: Images.second,
     head: (
       <>
-        <span className="text-darkRed">Software modernization:</span> <br />
+        <span className="text-darkRed dark:text-green">Software modernization:</span> <br />
         Stay Future-Ready
       </>
     ),
@@ -91,7 +92,7 @@ export const introContent = [
     image: Images.third,
     head: (
       <>
-        <span className="text-darkRed">Custom Software Development:</span>{" "}
+        <span className="text-darkRed dark:text-green">Custom Software Development:</span>{" "}
         <br />
         Built for You
       </>
