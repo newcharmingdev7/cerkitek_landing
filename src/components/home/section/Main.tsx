@@ -1,5 +1,3 @@
-import Image from "next/image";
-import Images from "@/utils/images";
 import DefaultButton from "@/components/common/DefaultButton";
 import TileImage from "../details/TileImage";
 import { maincontent } from "@/consts/homeContents";

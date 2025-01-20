@@ -6,7 +6,7 @@ interface Props {
 }
 
 const DashImage = ({ url, index }: Props) => {
-  let borderColor =
+    const borderColor =
     index === 0
       ? "border-[#62C1BF]"
       : index === 1
