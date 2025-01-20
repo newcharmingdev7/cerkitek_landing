@@ -1,5 +1,3 @@
-import Link from "next/link";
-
 interface Props {
   title: string;
   variant: "green" | "white";
